@@ -45,7 +45,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    background-image: url(/img/portada-3.jpg);
+    background-image: url(../img/portada-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
