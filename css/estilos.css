@@ -1137,7 +1137,7 @@ Amarillo Soleado: #FFFF00
 
 @media (min-width: 350px) and (max-width: 399px){
     header{
-        width: 87%;
+        width: 100%;
     }
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         width: 70% !important;
@@ -1308,6 +1308,7 @@ Amarillo Soleado: #FFFF00
     .c2c4{
         width: 100%;
         justify-content: center;
+        margin-bottom: 130px;
     }
 }
 
