@@ -435,6 +435,7 @@ footer{
     font-size: 15px;
     row-gap: 20px;
     column-gap: 20px;
+    padding-top: 70px;
 }
 
 .grid-carta h4{
@@ -457,7 +458,7 @@ div#GC4{
     grid-area: GC4;
 }
 
-                /* CONTENDOR 1 GRID */
+                /* PASTAS */
 
 .grid-cont-1{
     display: flex;
@@ -529,7 +530,7 @@ div#GC4{
     line-height: 18px;
 }
 
-                /* CONTENDOR 2 GRID */
+                /* MILANESAS*/
 
 .grid-cont-2{
     display: flex;
@@ -602,7 +603,7 @@ div#GC4{
     line-height: 18px;
 }
 
-                /* CONTENDOR 3 GRID */
+                /* BEBIDAS */
 
 .grid-cont-3{
     display: flex;
@@ -708,7 +709,7 @@ div#GC4{
     padding: 5px 0;
 }
 
-            /* CONTENDOR 4 GRID */
+            /* SOPAS */
 
 .grid-cont-4{
     display: flex;
@@ -1260,7 +1261,7 @@ Amarillo Soleado: #FFFF00
         height: 100vh;
     }
     .contenedor-1 h1{
-        font-size: 6vw;
+        font-size: 8.5vw;
         line-height: 100%;
     }
     .contenedor-1 p a{
@@ -1308,7 +1309,7 @@ Amarillo Soleado: #FFFF00
     .c2c4{
         width: 100%;
         justify-content: center;
-        margin-bottom: 130px;
+        margin-bottom: 150px;
     }
 }
 
@@ -1527,6 +1528,614 @@ Amarillo Soleado: #FFFF00
 }
 
 /* FIN MAIN INDEX */
+
+/* CARTA */
+@media (min-width: 350px) and (max-width: 400px){
+    .grid-carta{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    /* PASTAS */
+    .grid-cont-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-cont-1 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc1-1{
+        font-size: 3.3vw;
+        height: 50vh;
+    }
+    .gc1-c1{
+        width: 70%;
+    }
+    .gc1-c1 ul{
+        justify-content: center;
+    }
+    .gc1-c1 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+        padding-left: 10px;
+    }
+    .gc1-c1 ul li{
+        padding: 5px 0;
+    }
+    
+    .gc1-c2{
+        width: 100%;
+    }
+    .gc1-c2 ul{
+        justify-content: space-evenly;
+        
+    }
+    .gc1-c2 ul:nth-child(even){
+        justify-content: space-evenly;
+        padding-left: 20px;
+    }
+    .gc1-c2 ul li{
+        padding: 5px 0;
+    }
+
+    /* MILANESAS */
+    .grid-cont-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-cont-2 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc2-1{
+        font-size: 3.3vw;
+        height: 50vh;
+    }
+    .gc2-c1{
+        width: 70%;
+    }
+    .gc2-c1 ul{
+        justify-content: center;
+    }
+    .gc2-c1 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+        padding-left: 10px;
+    }
+    .gc2-c1 ul li{
+        padding: 5px 0;
+    }
+    
+    .gc2-c2{
+        width: 100%;
+    }
+    .gc2-c2 ul{
+        justify-content: space-evenly;
+        
+    }
+    .gc2-c2 ul:nth-child(even){
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    .gc2-c2 ul li{
+        padding: 0 0 0 10px;
+        width: 100%;
+        line-height: 15px;
+    }
+    
+    /* BEBIDAS */
+    .grid-cont-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-cont-3 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc3-1{
+        flex-wrap: wrap;
+        font-size: 3.3vw;
+    }
+    /*  */      
+    .gc3-c1{
+        width: 50%;
+    }
+    .gc3-c1 h5{
+        margin: 0;
+        padding: 13px 0 5px 0;
+        font-size: 4vw;
+    }  
+    .gc3-c1-1 ul{
+        justify-content: center;
+        padding: 0;
+    }
+    .gc3-c1-1 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+
+    }
+    .gc3-c1-1 ul li{
+        padding: 5px 0;
+    }
+    /*  */
+    .gc3-c2{
+        width: 50%;
+        padding: 0 0 0 15px;
+    }
+    .gc3-c2 h5{
+        margin: 0;
+        padding: 13px 0 5px 0;
+        font-size: 4vw;
+    }  
+    .gc3-c2-2 ul{
+        justify-content: center;
+        padding: 0;
+    }
+    .gc3-c2-2 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+    }
+    .gc3-c2-2 ul li{
+        padding: 5px 0;
+    }
+    /*  */
+    .gc3-c3{
+        width: 100%;
+        padding: 0;
+    }
+    .gc3-c3 h5{
+        margin: 0;
+        padding: 5px 0;
+        font-size: 4vw;
+    }  
+    .gc3-c3-3 ul{
+        justify-content: center;
+        padding: 0;
+    }
+    .gc3-c3-3 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+    }
+    .gc3-c3-3 ul li{
+        padding: 5px 0;
+    }
+    /* SOPAS, POSTRES Y CERVEZAS */
+    .grid-cont-4{
+        display: flex;
+        border: none;
+        border-top: 2px solid rgb(168, 168, 168);
+        font-size: 3.3vw;
+    }
+    /*  */
+    .gc4-c1 h4{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .gc4-c1 ul{
+        padding: 0 30px 0 0;
+        margin: 0;
+    }
+    .gc4-c1-1 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 0 0 40px;
+    }
+    /*  */
+    .gc4-c2 h4{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .gc4-c2 ul{
+        padding: 0 20px 0 0;
+        margin: 0;
+    }
+    .gc4-c2-2 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 0 0 20px;
+        line-height: 17.3px;
+    }
+    /*  */
+    .gc4-c3 h4{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .gc4-c3 ul{
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+    .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 0 0 20px;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px){
+    .grid-carta{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    /* PASTAS */
+    .grid-cont-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-cont-1 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc1-1{
+        font-size: 3vw;
+        height: 50vh;
+    }
+    .gc1-c1{
+        width: 70%;
+    }
+    .gc1-c1 ul{
+        justify-content: center;
+    }
+    .gc1-c1 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+        padding-left: 10px;
+    }
+    .gc1-c1 ul li{
+        padding: 5px 0;
+    }
+    
+    .gc1-c2{
+        width: 100%;
+    }
+    .gc1-c2 ul{
+        justify-content: space-evenly;
+    }
+    .gc1-c2 ul:nth-child(even){
+        justify-content: space-evenly;
+        padding-left: 20px;
+    }
+    .gc1-c2 ul li{
+        padding: 5px 0;
+    }
+
+    /* MILANESAS */
+    .grid-cont-2{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+    }
+    .grid-cont-2 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc2-1{
+        font-size: 3vw;
+        height: 50vh;
+    }
+    .gc2-c1{
+        width: 70%;
+    }
+    .gc2-c1 ul{
+        justify-content: center;
+    }
+    .gc2-c1 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+        padding-left: 10px;
+    }
+    .gc2-c1 ul li{
+        padding: 5px 0;
+    }
+    
+    .gc2-c2{
+        width: 100%;
+    }
+    .gc2-c2 ul{
+        justify-content: space-evenly;
+        
+    }
+    .gc2-c2 ul:nth-child(even){
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    .gc2-c2 ul li{
+        padding: 0 0 0 10px;
+        width: 100%;
+        line-height: 15px;
+    }
+    
+    /* BEBIDAS */
+    .grid-cont-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-cont-3 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc3-1{
+        flex-wrap: wrap;
+        font-size: 3vw;
+    }
+    /*  */      
+    .gc3-c1{
+        width: 50%;
+    }
+    .gc3-c1 h5{
+        margin: 0;
+        padding: 13px 0 5px 0;
+        font-size: 4vw;
+    }  
+    .gc3-c1-1 ul{
+        justify-content: center;
+        padding: 0;
+    }
+    .gc3-c1-1 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+
+    }
+    .gc3-c1-1 ul li{
+        padding: 5px 0;
+    }
+    /*  */
+    .gc3-c2{
+        width: 50%;
+        padding: 0 0 0 15px;
+    }
+    .gc3-c2 h5{
+        margin: 0;
+        padding: 13px 0 5px 0;
+        font-size: 4vw;
+    }  
+    .gc3-c2-2 ul{
+        justify-content: center;
+        padding: 0;
+    }
+    .gc3-c2-2 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+    }
+    .gc3-c2-2 ul li{
+        padding: 5px 0;
+    }
+    /*  */
+    .gc3-c3{
+        width: 100%;
+        padding: 0;
+    }
+    .gc3-c3 h5{
+        margin: 0;
+        padding: 5px 0;
+        font-size: 4vw;
+    }  
+    .gc3-c3-3 ul{
+        justify-content: center;
+        padding: 0;
+    }
+    .gc3-c3-3 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-evenly;
+    }
+    .gc3-c3-3 ul li{
+        padding: 5px 0;
+    }
+    /* SOPAS, POSTRES Y CERVEZAS */
+    .grid-cont-4{
+        display: flex;
+        border: none;
+        border-top: 2px solid rgb(168, 168, 168);
+        font-size: 3vw;
+    }
+    /*  */
+    .gc4-c1 h4{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .gc4-c1 ul{
+        padding: 0 30px 0 0;
+        margin: 0;
+    }
+    .gc4-c1-1 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 0 0 40px;
+    }
+    /*  */
+    .gc4-c2 h4{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .gc4-c2 ul{
+        padding: 0 20px 0 0;
+        margin: 0;
+    }
+    .gc4-c2-2 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 0 0 20px;
+        line-height: 17.3px;
+    }
+    /*  */
+    .gc4-c3 h4{
+        margin: 0;
+        padding: 10px 0;
+    }
+    .gc4-c3 ul{
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+    .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 0 0 20px;
+    }
+}
+@media (min-width: 501px) and (max-width: 750px){
+    .grid-carta{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    /* PASTAS */
+    .grid-cont-1{
+        border: none;
+    }
+    .grid-cont-1 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc1-1{
+        font-size: 14px;
+        height: 50vh;
+        
+    }        
+    .gc1-c2{
+        width: 60%;
+    }
+    .gc1-c2 ul{
+        justify-content: space-evenly;
+        padding: 0 0 0 20px;
+    }
+    .gc1-c2 ul:nth-child(even){
+        justify-content: space-evenly;
+        padding-left: 20px;
+    }
+    /* MILANESAS */
+    .grid-cont-2{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 20px 0;
+        border: none;
+    }
+    .grid-cont-2 h4{
+        margin: 0;
+        padding: 30px 0 5px 0;
+    }
+    .gc2-1{
+        font-size: 14px;
+    }
+    .gc2-c1{
+        width: 80%;
+    }
+    /* BEBIDAS */
+    .grid-cont-3{
+        height: 100%;
+    }
+    .grid-cont-3 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc3-1{
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    /*  */
+    .gc3-c1{
+        width: 40%;
+    }
+    .gc3-c1 h5{
+        margin: 0;
+        padding: 13px 0 5px 0;
+        font-size: 15px;
+    }
+    /*  */
+    .gc3-c2 h5{
+        margin: 0;
+        padding: 13px 0 5px 0;
+        font-size: 15px;
+    } 
+    /*  */
+    .gc3-c3{
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 100%;        
+    }
+    .gc3-c3 h5{
+        margin: 0;
+        padding: 5px 0;
+        font-size: 15px;
+    } 
+    /* SOPAS, POSTRES Y CERVEZAS */
+    .grid-cont-4{
+        border: none;
+    }
+    /*  */
+    .gc4-c1 h4{
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+    .gc4-c1-1{
+        font-size: 14px;
+    }
+    .gc4-c1 ul{
+        padding: 0 30px 0 30px;
+        margin: 0;
+    }
+    /*  */
+    .gc4-c2 h4{
+        margin: 0;
+        padding: 0 0 25px 0;
+    }
+    .gc4-c2-2{
+        font-size: 14px;
+    }
+    .gc4-c2 ul{
+        padding: 0 20px 0 10px;
+        margin: 0;
+    }
+    .gc4-c2-2 ul:nth-child(even){ /* PRECIOS */
+        line-height: 17.3px;
+    }    
+    /*  */
+    .gc4-c3 h4{
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+    .gc4-c3-3{
+        font-size: 14px;
+    }
+    .gc4-c3 ul{
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+    .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
+        padding: 0 15px 0 25px;
+    }  
+}
+@media (min-width: 751px) and (max-width: 992px){
+    .grid-carta{
+        height: 230vh;
+    }
+    /* PASTAS */
+    .grid-cont-1 h4{
+        margin: 0;
+        padding: 25px 0 5px 0;
+    }
+    .gc1-1{
+        font-size: 14px;
+        height: 50vh;
+    }
+    .gc1-c1{
+        width: 40%;
+    }
+    
+    /* MILANESAS */
+    .grid-cont-2 h4{
+        margin: 0;
+        padding: 0;
+    }
+    .gc2-1{
+        font-size: 14px;
+    }
+    .gc2-c1{
+        width: 45%;
+    }
+}
+
+
+/* FIN CARTA */
+
+
+
+
+
+/* GALERIA */
+
+
+
+/* FIN GALER[IA */
+
+
+
+
+
 
 /* RESERVAR */
 
