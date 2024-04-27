@@ -357,7 +357,7 @@ footer{
 /* MAIN */
 
 .ttl-galeria{
-    padding: 50px 200px;
+    padding: 100px 200px 30px 200px;
     line-height: 60px;
     font-size: 3rem;
 }
@@ -827,7 +827,7 @@ div#GC4{
 
 .ttl-sn{
     text-align: center;
-    margin: 0 0 70px 0;
+    margin: 60px 0 70px 0;
 }
 
 .ttl-sn h2{
@@ -913,7 +913,7 @@ div#GC4{
     margin: 30px auto;
     width: 80%;
     height: 60vh;
-    background-color: #334756;
+    /* background-color: #334756; */
 }
 
 .sn-cont-3 img{
@@ -1058,9 +1058,6 @@ div#GC4{
     border-radius: 8px;
 }
 
-
-
-
 /* FIN RESERVAR */
 
 
@@ -1077,14 +1074,6 @@ Blanco Crema: #FFF8DC
 Amarillo Soleado: #FFFF00
 
 */
-
-
-
-
-
-
-
-
 
 
 
@@ -2034,7 +2023,6 @@ Amarillo Soleado: #FFFF00
     .gc3-c3{
         display: flex;
         flex-wrap: wrap;
-        
         width: 100%;        
     }
     .gc3-c3 h5{
@@ -2089,9 +2077,9 @@ Amarillo Soleado: #FFFF00
         padding: 0 15px 0 25px;
     }  
 }
-@media (min-width: 751px) and (max-width: 992px){
+@media (min-width: 751px) and (max-width: 993px){
     .grid-carta{
-        height: 230vh;
+        height: 225vh;
     }
     /* PASTAS */
     .grid-cont-1 h4{
@@ -2107,6 +2095,9 @@ Amarillo Soleado: #FFFF00
     }
     
     /* MILANESAS */
+    .grid-cont-2{
+        padding: 20px 0;
+    }
     .grid-cont-2 h4{
         margin: 0;
         padding: 0;
@@ -2117,9 +2108,93 @@ Amarillo Soleado: #FFFF00
     .gc2-c1{
         width: 45%;
     }
+    /* BEBIBDAS */
+    .gc3-1{
+        font-size: 14px;
+    }
+    /*  */
+    .gc3-c1{
+        width: 29%;
+    }
+    .gc3-c1-1 ul:nth-child(odd){
+        justify-content: space-around;
+        margin: 5px 0 20px 0;
+    }
+    .gc3-c1-1 ul:nth-child(even){
+        justify-content: space-around;
+        margin: 2px 0 35px 0;
+    }
+    /*  */
+    .gc3-c2{
+        width: 35%;
+    }
+    .gc3-c2 ul{
+        line-height: 20px;
+        justify-content: space-around;
+    }
+    .gc3-c2-2 ul:nth-child(odd){
+        justify-content: space-around;
+        margin: 2px 0 20px 0;
+    }
+    .gc3-c2-2 ul:nth-child(even){
+        justify-content: space-between;
+        margin: 1px 0 40px 0;
+    }
+    /*  */    
+    .gc3-c3-3 ul:nth-child(odd){
+        justify-content: space-around;
+        margin: 10px 0 20px 0;
+    }
+    .gc3-c3-3 ul:nth-child(even){
+        justify-content: space-around;
+        margin: 7px 0 45px 0;
+    }
+    /* SOPAS, POSTRES Y CERVEZAS */
+    .grid-cont-4{
+        justify-content: space-evenly;
+    }
+    /*  */
+    .gc4-c1{
+        margin: 0;
+    }
+    .gc4-c1-1{
+        font-size: 14px;
+    }    
+    .gc4-c1-1 ul:nth-child(even){ 
+        justify-content: space-between;
+        margin: 2px 0 23px 0;
+    }  
+    /*  */
+    .gc4-c2{
+        margin: 0;
+    }
+    .gc4-c2 h4{
+        margin: 0;
+        padding: 0 0 25px 0;
+    }
+    .gc4-c2-2{
+        font-size: 14px;
+    }
+    .gc4-c2-2 ul:nth-child(even){ /* PRECIOS */
+        justify-content: space-around;
+        margin: 0 0 12px 0;
+    } 
+    .gc4-c2-2 ul li:nth-child(even){
+        padding: 10px 0;
+    }
+    /*  */
+    .gc4-c3 h4{
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+    .gc4-c3-3{
+        font-size: 14px;
+    }
+    .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
+        margin: 0 0 0 48px!important;
+        justify-content: space-between;
+    } 
 }
-
-
 /* FIN CARTA */
 
 
@@ -2127,13 +2202,464 @@ Amarillo Soleado: #FFFF00
 
 
 /* GALERIA */
-
-
-
+@media (min-width: 350px) and (max-width: 400px){
+    .ttl-galeria{
+        line-height: 30px;
+        font-size: 1.5rem;
+        padding: 100px 20px 10px 20px ;
+    }
+    .galeria-grid{
+        grid-template-columns: repeat(2, 150px);
+    }
+    .txt-galeria{
+        width: 80%;
+    }
+}
+@media (min-width: 401px) and (max-width: 500px){
+    .ttl-galeria{
+        line-height: 30px;
+        font-size: 1.5rem;
+        padding: 100px 50px 10px 50px ;
+    }
+    .galeria-grid{
+        grid-template-columns: repeat(2, 200px);
+    }
+    .txt-galeria{
+        width: 70%;
+    }
+}
+@media (min-width: 501px) and (max-width: 750px){
+    .ttl-galeria{
+        line-height: 30px;
+        font-size: 1.5rem;
+        padding: 100px 50px 10px 50px ;
+    }
+    .galeria-grid{
+        grid-template-columns: repeat(3, 30%);
+    }
+    .txt-galeria{
+        width: 300px;
+    }
+}
+@media (min-width: 751px) and (max-width: 993px){
+    .ttl-galeria{
+        line-height: 30px;
+        font-size: 2rem;
+        padding: 110px 90px 30px 90px ;
+    }
+    .galeria-grid{
+        grid-template-columns: repeat(3, 30%);
+    }
+    .txt-galeria{
+        width: 300px;
+    }
+}
 /* FIN GALER[IA */
 
 
+/* SOBRE NOSOTROS */
+@media (min-width: 350px) and (max-width: 400px){
+    .ttl-sn{
+        margin: 50px 0 40px 0;
+    }
+    .ttl-sn h2{
+        font-size: 2rem;
+        padding: 50px 0 10px 0;
+    }
+    .ttl-sn p{
+        margin: 0;
+        padding: 0 40px;
+        font-size: 4vw;
+    }
+    /*  */
+    .sn-cont-1{
+        margin: 0 20px;
+        width: 90%;
+        height: 330px;
+        height: 66vh;
+    }
+    .sn-cont-1 img{
+        display: none;
+    }
+    .sn-c1-1{
+        padding: 30px 20px;
+    }
+    .sn-c1-1 h3{
+        margin: 0 0 10px 0;
+        font-size: 4.5vw;
+    }
+    .sn-c1-1 p{
+        font-size: 3.4vw;
+    }
+    /*  */
+    .sn-cont-2{
+        height: 230px;
+        width: 100%;
+        margin: 10px 20px;
+    }
+    .sn-cont-2 img{
+        display: none;
+    }
+    .sn-c2-1{
+        padding: 30px 20px;
+        margin: 0;
+    }
+    .sn-c2-1 h3{
+        margin: 0 0 10px 0;
+        font-size: 4.5vw;
+    }
+    .sn-c2-1 p{
+        font-size: 3.4vw;
+    }
+    /*  */
+    .sn-cont-3{
+        margin: auto;
+        width: 90%;
+        height: 60vh;
+    }
+    .sn-cont-3 img{
+        display: none;
+    }
+    .sn-c3-1{
+        padding: 30px 20px;
+    }
+    .sn-c3-1 h3{
+        font-size: 4.5vw;
+    }
+    .sn-c3-1 p{
+        font-size: 3.4vw;
+        padding: 0;
+    }
+    /*  */
+    .sn-cont-4{
+        margin: auto;
+        width: 90%;
+    }
+    .sn-cont-4 img{
+        display: none;
+    }
+    .sn-c4-1{
+        padding: 30px 20px;
+    }
+    .sn-c4-1 h3{
+        font-size: 4.5vw;
+    }
+    .sn-c4-1 p{
+        font-size: 3.4vw;
+        padding: 0;
+    }
+}
 
+@media (min-width: 401px) and (max-width: 500px){
+    .ttl-sn{
+        margin: 50px 0 40px 0;
+    }
+    .ttl-sn h2{
+        font-size: 2rem;
+        padding: 50px 0 10px 0;
+    }
+    .ttl-sn p{
+        margin: 0;
+        padding: 0 40px;
+        font-size: 4vw;
+    }
+    /*  */
+    .sn-cont-1{
+        margin: 0 20px;
+        width: 90%;
+        height: 330px;
+        height: 66vh;
+    }
+    .sn-cont-1 img{
+        display: none;
+    }
+    .sn-c1-1{
+        padding: 30px 20px;
+    }
+    .sn-c1-1 h3{
+        margin: 0 0 10px 0;
+        font-size: 4.5vw;
+    }
+    .sn-c1-1 p{
+        font-size: 3.4vw;
+    }
+    /*  */
+    .sn-cont-2{
+        height: 230px;
+        width: 100%;
+        margin: 10px 20px;
+    }
+    .sn-cont-2 img{
+        display: none;
+    }
+    .sn-c2-1{
+        padding: 30px 20px;
+        margin: 0;
+    }
+    .sn-c2-1 h3{
+        margin: 0 0 10px 0;
+        font-size: 4.5vw;
+    }
+    .sn-c2-1 p{
+        font-size: 3.4vw;
+    }
+    /*  */
+    .sn-cont-3{
+        margin: auto;
+        width: 90%;
+        height: 60vh;
+    }
+    .sn-cont-3 img{
+        display: none;
+    }
+    .sn-c3-1{
+        padding: 30px 20px;
+    }
+    .sn-c3-1 h3{
+        font-size: 4.5vw;
+    }
+    .sn-c3-1 p{
+        font-size: 3.4vw;
+        padding: 0;
+    }
+    /*  */
+    .sn-cont-4{
+        margin: auto;
+        width: 90%;
+    }
+    .sn-cont-4 img{
+        display: none;
+    }
+    .sn-c4-1{
+        padding: 30px 20px;
+    }
+    .sn-c4-1 h3{
+        font-size: 4.5vw;
+    }
+    .sn-c4-1 p{
+        font-size: 3.4vw;
+        padding: 0;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 650px){
+    .ttl-sn{
+        margin: 50px 0 40px 0;
+    }
+    .ttl-sn h2{
+        font-size: 2.5rem;
+        padding: 50px 0 10px 0;
+    }
+    .ttl-sn p{
+        margin: 0;
+        padding: 0 80px;
+        font-size: 1.2rem;
+        line-height: 100%;
+    }
+    /*  */
+    .sn-cont-1{
+        margin: 0 20px;
+        width: 92%;
+        height: 100%;
+    }
+    .sn-cont-1 img{
+        display: none;
+    }
+    .sn-c1-1{
+        padding: 30px 20px;
+    }
+    .sn-c1-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 16px;
+    }
+    .sn-c1-1 p{
+        font-size: 2.4vw;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+    }
+    /*  */
+    .sn-cont-2{
+        margin: 0 20px;
+        width: 100%;
+        height: 100%;
+    }
+    .sn-cont-2 img{
+        display: none;
+    }
+    .sn-c2-1{
+        padding: 30px 20px;
+        margin: 0;
+    }
+    .sn-c2-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 16px;
+    }
+    .sn-c2-1 p{
+        font-size: 2.4vw;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+    }
+    /*  */
+    .sn-cont-3{
+        margin: 0 20px;
+        width: 93%;
+        height: 100%;
+    }
+    .sn-cont-3 img{
+        display: none;
+    }
+    .sn-c3-1{
+        padding: 30px 20px;
+    }
+    .sn-c3-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 16px;
+    }
+    .sn-c3-1 p{
+        font-size: 2.4vw;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    /*  */
+    .sn-cont-4{
+        margin: 0 20px;
+        width: 94%;
+        height: 100%;
+    }
+    .sn-cont-4 img{
+        display: none;
+    }
+    .sn-c4-1{
+        padding: 30px 20px;
+        margin: 0;
+    }
+    .sn-c4-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 16px;
+    }
+    .sn-c4-1 p{
+        font-size: 2.4vw;
+        line-height: 13px;
+        margin: 10px 0 0 0;
+    }
+    .sn-c4-1 p:nth-child(odd){
+        margin-top: 2.2rem;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 750px){
+    .ttl-sn{
+        margin: 50px 0 40px 0;
+    }
+    .ttl-sn h2{
+        font-size: 2.5rem;
+        padding: 50px 0 10px 0;
+    }
+    .ttl-sn p{
+        margin: 0;
+        padding: 0 120px;
+        font-size: 1.2rem;
+        line-height: 100%;
+    }
+    /*  */
+    .sn-cont-1{
+        margin: 0 50px;
+        width: 85%;
+        height: 100%;
+    }
+    .sn-c1-1{
+        padding: 30px 20px;
+    }
+    .sn-c1-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 20px;
+    }
+    .sn-c1-1 p{
+        font-size: 12px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+    }
+    /*  */
+    .sn-cont-2{
+        margin: 0 20px;
+        width: 95%;
+        height: 100%;
+    }
+    .sn-cont-2 img{
+        width: 30%;
+        margin: 0 0 0 45px;
+    }
+    .sn-c2-1{
+        padding: 70px 30px;
+        margin: 0;
+    }
+    .sn-c2-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 20px;
+    }
+    .sn-c2-1 p{
+        font-size: 12px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        width: 90%;
+    }
+    /*  */
+    .sn-cont-3{
+        margin: 0 50px;
+        width: 85%;
+        height: 100%;
+    }
+    .sn-cont-3 img{
+        width: 30%;
+        margin: 0 30px 0 0;
+    }
+    .sn-c3-1{
+        padding: 30px 20px;
+    }
+    .sn-c3-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 20px;
+    }
+    .sn-c3-1 p{
+        font-size: 12px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        padding: 0 20px 0 0;
+    }
+    /*  */
+    .sn-cont-4{
+        margin: 0 20px;
+        width: 95%;
+        height: 100%;
+    }
+    .sn-cont-4 img{
+        width: 30%;
+        margin: 0 0 0 45px;
+    }
+    .sn-c4-1{
+        padding: 70px 30px;
+        margin: 0;
+    }
+    .sn-c4-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 20px;
+    }
+    .sn-c4-1 p{
+        font-size: 12px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        width: 90%;
+    }
+    .sn-c4-1 p:nth-child(odd){
+        margin-top: 2.2rem;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 993px){
+
+}
+/* FIN SOBRE NOSOTROS */
 
 
 
@@ -2178,7 +2704,7 @@ Amarillo Soleado: #FFFF00
     }
 }
 
-@media (min-width: 401px) and (max-width: 550px){
+@media (min-width: 401px) and (max-width: 750px){
     .reservar-cont{
         margin: 0;
         height: auto;
