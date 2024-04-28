@@ -2657,7 +2657,111 @@ Amarillo Soleado: #FFFF00
 }
 
 @media (min-width: 751px) and (max-width: 993px){
-
+    .ttl-sn{
+        margin: 50px 0 40px 0;
+    }
+    .ttl-sn h2{
+        font-size: 2.5rem;
+        padding: 50px 0 10px 0;
+    }
+    .ttl-sn p{
+        margin: 0;
+        padding: 0 120px;
+        font-size: 1.2rem;
+        line-height: 100%;
+    }
+    /*  */
+    .sn-cont-1{
+        margin: 10px 50px;
+        width: 88%;
+        height: 100%;
+    }
+    .sn-c1-1{
+        padding: 20px 20px;
+    }
+    .sn-c1-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 22px;
+    }
+    .sn-c1-1 p{
+        font-size: 14px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+    }
+    /*  */
+    .sn-cont-2{
+        margin: 30px 20px;
+        width: 95%;
+        height: 100%;
+    }
+    .sn-cont-2 img{
+        width: 30%;
+        margin: 0 0 0 45px;
+    }
+    .sn-c2-1{
+        padding: 70px 30px;
+        margin: 0;
+    }
+    .sn-c2-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 22px;
+    }
+    .sn-c2-1 p{
+        font-size: 14px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        width: 90%;
+    }
+    /*  */
+    .sn-cont-3{
+        margin: 10px 50px;
+        width: 88%;
+        height: 100%;
+    }
+    .sn-cont-3 img{
+        width: 30%;
+        margin: 20px 30px 20px 0;
+    }
+    .sn-c3-1{
+        padding: 30px 20px;
+    }
+    .sn-c3-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 22px;
+    }
+    .sn-c3-1 p{
+        font-size: 14px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        padding: 0 20px 0 0;
+    }
+    /*  */
+    .sn-cont-4{
+        margin: 0 20px;
+        width: 95%;
+        height: 100%;
+    }
+    .sn-cont-4 img{
+        width: 30%;
+        margin: 0 0 0 45px;
+    }
+    .sn-c4-1{
+        padding: 70px 30px;
+        margin: 0;
+    }
+    .sn-c4-1 h3{
+        margin: 0 0 5px 0;
+        font-size: 22px;
+    }
+    .sn-c4-1 p{
+        font-size: 14px;
+        line-height: 100%;
+        margin: 10px 0 0 0;
+        width: 90%;
+    }
+    .sn-c4-1 p:nth-child(odd){
+        margin-top: 2.2rem;
+    }
 }
 /* FIN SOBRE NOSOTROS */
 
@@ -2814,5 +2918,4 @@ Amarillo Soleado: #FFFF00
         margin: 0;
     }
 }
-
 /* FIN MAIN RESERVAR */
