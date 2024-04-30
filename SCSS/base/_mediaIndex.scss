@@ -1,0 +1,98 @@
+/* HEADER BOOTSTRAP */
+@media (max-width: 992px){    
+    .navbar > .container-fluid{
+        justify-content: end !important;
+    }
+    .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link{
+       justify-content: end !important;
+    }
+    .nav-link{
+        display: flex !important;
+    }    
+}
+
+@media (min-width: 768px) and (max-width: 799px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 91% !important;
+        padding: 0 !important;
+
+    }
+}
+
+@media (max-width: 619px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 90% !important;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 619px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 88% !important;
+        padding: 0 !important;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 551px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 80% !important;
+        padding: 0 !important;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 399px){
+    header{
+        width: 100%;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 70% !important;
+        padding: 0!important;
+    }
+}
+/* FIN HEADER BOOTSTRAP */
+/* FOOTER */
+@media (min-width: 350px) and (max-width: 400px){
+    footer{
+        .cf1{
+            img{
+                width: 50%;
+            }
+            .redes{
+                position: relative;
+                right: 3px;                
+            }
+        }
+        .cf2{
+            .cf2-txt{
+                h3{
+                    font-size: 15px;
+                }
+                p{
+                    &:nth-child(even){
+                    font-size: 12px;
+                    }
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .cf3{
+            padding: 20px 0 0 0;
+            text-align: center;
+            line-height: 15px;
+            p{
+                a{
+                    font-size: 3vw;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 401px) and (max-width: 551px){
+    
+}
+/* FIN FOOTER */
+

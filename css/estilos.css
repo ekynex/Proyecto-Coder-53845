@@ -8,7 +8,6 @@
 /* INDEX */
 
 /* HEADER */
-
 header{
     position: fixed;
     top: 0;
@@ -32,8 +31,6 @@ header{
     transform: scale(1.2);
     border-bottom: 1px solid black;    
 }
-
-
 /* FIN HEADER */
 
 
@@ -66,17 +63,17 @@ header{
     margin-bottom: 40px;
 }
 
-.contenedor-1 a{
+.contenedor-1 p a{
     text-decoration: none;
     color: white !important;
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px 30px;
     transition: ease .5s;
-    font-size: 1.3vw;
+    font-size: 18px;
 }
 
-.contenedor-1 p:hover{
+.contenedor-1 p a:hover{
     cursor: pointer;
     color: white;
     transform: scale(1.1);
@@ -172,7 +169,7 @@ h2{
 .boton > a:hover{
     cursor: pointer;
     color: black;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 
@@ -182,7 +179,7 @@ h2{
 .contenedor-4{
     display: flex;
     flex-wrap: wrap;
-    margin: 70px 90px;
+    margin: 70px 90px -100px 90px;
 }
 
 .c1c4{
@@ -248,7 +245,7 @@ div#GI5{
 footer{
     background-color: black;
     color: white;
-    margin: 130px 0 0 0;
+    margin: 220px 0 0 0;
 }
 
 .cf1{
@@ -283,7 +280,7 @@ footer{
 
 
 .redes a img:hover{
-    transform: scale(1.08);
+    transform: scale(1.1);
 }
 
 
@@ -380,15 +377,16 @@ footer{
     text-align: center;
     width: 25%;
     padding: 10px 0;
-    margin: 50px auto;
+    margin: 50px auto -180px auto;
     border: 1px solid black;
     border-radius: 5px;    
+    transition: ease .5s;
 }
 
 .txt-galeria a{  
     text-decoration: none;
-    color: black;
-    transition: linear .2s; /* ease, linear, ease-in, ease-out, ease-in-out */
+    color: black;    
+     /* ease, linear, ease-in, ease-out, ease-in-out */
 }
 
 .txt-galeria a:hover{  /* FALLANDO EL HOVER */
@@ -400,20 +398,6 @@ footer{
 /* FIN MAIN */
 
 /* FIN GALERÍA */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -438,10 +422,6 @@ footer{
     padding-top: 70px;
 }
 
-.grid-carta h4{
-    padding-bottom: 12px;
-}
-
 div#GC1{
     grid-area: GC1;
 }
@@ -464,8 +444,11 @@ div#GC4{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     border-bottom: 2px solid rgb(168, 168, 168);
+}
+
+.grid-cont-1 h4{
+    padding-bottom: 12px;
 }
 
 .gc1-1{
@@ -512,7 +495,7 @@ div#GC4{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .gc1-c2 ul:nth-child(even){
@@ -536,7 +519,6 @@ div#GC4{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     border-bottom: 2px solid rgb(168, 168, 168);
     padding-top: 20px;
 }
@@ -835,7 +817,8 @@ div#GC4{
 }
 
 .ttl-sn p{
-    margin: 0 220px;
+    margin: 0 250px;
+    font-size: 20px;
 }
 
 .sn-box{
@@ -944,7 +927,7 @@ div#GC4{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px auto;
+    margin: 30px auto -180px auto;
     width: 80%;
     height: 60vh;
 }
@@ -1049,7 +1032,7 @@ div#GC4{
     display: flex;
     justify-content: center;
     padding: 15px 30px;
-    margin: 2px auto;/*agregué esto*/
+    margin: 2px auto;
     width: 28%;
 }
 
@@ -1140,9 +1123,6 @@ Amarillo Soleado: #FFFF00
 /* FOOTER */
 
 @media (min-width: 350px) and (max-width: 400px){
-    footer{
-        height: 95vh;
-    }
     .cf1 img{
         width: 50%;
     }
@@ -1152,11 +1132,15 @@ Amarillo Soleado: #FFFF00
     }
 
     .cf2-txt h3{
-        font-size: 4.2vw;
+        font-size: 15px;
     }
 
-    .cf2-txt p{
-        font-size: 2.8vw!important;
+    .cf2-txt > p:nth-child(even){
+        font-size: 12px;
+    }
+
+    .cf2-txt p a{
+        font-size: 10px;
     }
 
     .cf3{
@@ -1244,7 +1228,6 @@ Amarillo Soleado: #FFFF00
 
 
 /* MAIN INDEX */
-
 @media (min-width: 350px) and (max-width: 400px){
     .contenedor-1{
         height: 100vh;
@@ -1515,8 +1498,11 @@ Amarillo Soleado: #FFFF00
         justify-content: center;
     }
 }
-
 /* FIN MAIN INDEX */
+
+
+
+
 
 /* CARTA */
 @media (min-width: 350px) and (max-width: 400px){
@@ -1547,7 +1533,7 @@ Amarillo Soleado: #FFFF00
         justify-content: center;
     }
     .gc1-c1 ul:nth-child(even){ /* PRECIOS */
-        justify-content: space-evenly;
+        justify-content: center;
         padding-left: 10px;
     }
     .gc1-c1 ul li{
@@ -1558,11 +1544,11 @@ Amarillo Soleado: #FFFF00
         width: 100%;
     }
     .gc1-c2 ul{
-        justify-content: space-evenly;
+        justify-content: center;
         
     }
     .gc1-c2 ul:nth-child(even){
-        justify-content: space-evenly;
+        justify-content: center;
         padding-left: 20px;
     }
     .gc1-c2 ul li{
@@ -2257,6 +2243,9 @@ Amarillo Soleado: #FFFF00
 /* FIN GALER[IA */
 
 
+
+
+
 /* SOBRE NOSOTROS */
 @media (min-width: 350px) and (max-width: 400px){
     .ttl-sn{
@@ -2767,8 +2756,9 @@ Amarillo Soleado: #FFFF00
 
 
 
-/* RESERVAR */
 
+
+/* RESERVAR */
 @media (min-width: 350px) and (max-width: 400px){
     .reservar-cont{
         margin: 0;
