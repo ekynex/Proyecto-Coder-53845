@@ -1171,8 +1171,8 @@ Amarillo Soleado: #FFFF00
         font-size: 4.2vw;
     }
 
-    .cf2-txt p{
-        font-size: 2.8vw!important;
+    .cf2-txt p:nth-child(even){
+        font-size: 13px;
     }
 
     .cf3{
@@ -1449,13 +1449,7 @@ Amarillo Soleado: #FFFF00
     }
     .contenedor-2-columna p{
         font-size: 2.5vw;
-    }
-
-    /* .contenedor-4{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 30px;
-    } */
+    }   
     .c1c4{
         width: 100%;
         padding: 0;
