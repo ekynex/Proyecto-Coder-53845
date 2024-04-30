@@ -2186,7 +2186,7 @@ Amarillo Soleado: #FFFF00
     .ttl-galeria{
         line-height: 30px;
         font-size: 1.5rem;
-        padding: 100px 20px 10px 20px ;
+        padding: 100px 20px 10px 20px;
     }
     .galeria-grid{
         grid-template-columns: repeat(2, 150px);
@@ -2199,7 +2199,7 @@ Amarillo Soleado: #FFFF00
     .ttl-galeria{
         line-height: 30px;
         font-size: 1.5rem;
-        padding: 100px 50px 10px 50px ;
+        padding: 100px 50px 10px 50px;
     }
     .galeria-grid{
         grid-template-columns: repeat(2, 200px);
@@ -2212,7 +2212,7 @@ Amarillo Soleado: #FFFF00
     .ttl-galeria{
         line-height: 30px;
         font-size: 1.5rem;
-        padding: 100px 50px 10px 50px ;
+        padding: 100px 50px 10px 50px;
     }
     .galeria-grid{
         grid-template-columns: repeat(3, 30%);
@@ -2225,7 +2225,7 @@ Amarillo Soleado: #FFFF00
     .ttl-galeria{
         line-height: 30px;
         font-size: 2rem;
-        padding: 110px 90px 30px 90px ;
+        padding: 110px 90px 30px 90px;
     }
     .galeria-grid{
         grid-template-columns: repeat(3, 30%);
