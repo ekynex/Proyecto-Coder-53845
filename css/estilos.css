@@ -774,8 +774,8 @@ div#GC4{
     margin: 0 20px;
 }
 
-.gc4-c3-3 ul:nth-child(even){
-    margin: 0 0 0 145px!important;
+.gc4-c3-3 ul:nth-child(even){ /* VERIFICAR ESTO EN LA VERSIÓN ESCRITORIO 30/04 */
+    margin: 0 0 0 145px;
     
 }
 
@@ -1678,19 +1678,19 @@ Amarillo Soleado: #FFFF00
         margin: 0;
         padding: 10px 0;
     }
-    .gc4-c1 ul{
+    .gc4-c1-1 ul{
         padding: 0 30px 0 0;
         margin: 0;
     }
-    .gc4-c1-1 ul:nth-child(even){ /* PRECIOS */
-        padding: 0 0 0 40px;
+    .gc4-c1-1 ul:nth-child(even){ 
+        padding: 0 0 0 60px;
     }
     /*  */
     .gc4-c2 h4{
         margin: 0;
         padding: 10px 0;
     }
-    .gc4-c2 ul{
+    .gc4-c2-2 ul{
         padding: 0 20px 0 0;
         margin: 0;
     }
@@ -1703,13 +1703,14 @@ Amarillo Soleado: #FFFF00
         margin: 0;
         padding: 10px 0;
     }
-    .gc4-c3 ul{
+    .gc4-c3-3 ul{
         padding: 0 10px 0 0;
         margin: 0;
     }
     .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
         padding: 0 0 0 20px;
     }
+    .gc4-c3-3 ul li{}
 }
 @media (min-width: 401px) and (max-width: 500px){
     .grid-carta{
@@ -1890,7 +1891,7 @@ Amarillo Soleado: #FFFF00
         margin: 0;
         padding: 10px 0;
     }
-    .gc4-c1 ul{
+    .gc4-c1-1 ul{
         padding: 0 30px 0 0;
         margin: 0;
     }
@@ -1902,20 +1903,21 @@ Amarillo Soleado: #FFFF00
         margin: 0;
         padding: 10px 0;
     }
-    .gc4-c2 ul{
+    .gc4-c2-2 ul{
         padding: 0 20px 0 0;
         margin: 0;
     }
     .gc4-c2-2 ul:nth-child(even){ /* PRECIOS */
         padding: 0 0 0 20px;
         line-height: 17.3px;
+        
     }
     /*  */
     .gc4-c3 h4{
         margin: 0;
         padding: 10px 0;
     }
-    .gc4-c3 ul{
+    .gc4-c3-3 ul{
         padding: 0 10px 0 0;
         margin: 0;
     }
@@ -1941,8 +1943,7 @@ Amarillo Soleado: #FFFF00
     }
     .gc1-1{
         font-size: 14px;
-        height: 50vh;
-        
+        height: 50vh;        
     }        
     .gc1-c2{
         width: 60%;
@@ -2022,7 +2023,7 @@ Amarillo Soleado: #FFFF00
     .gc4-c1-1{
         font-size: 14px;
     }
-    .gc4-c1 ul{
+    .gc4-c1-1 ul{
         padding: 0 30px 0 30px;
         margin: 0;
     }
@@ -2034,7 +2035,7 @@ Amarillo Soleado: #FFFF00
     .gc4-c2-2{
         font-size: 14px;
     }
-    .gc4-c2 ul{
+    .gc4-c2-2 ul{
         padding: 0 20px 0 10px;
         margin: 0;
     }
@@ -2107,8 +2108,9 @@ Amarillo Soleado: #FFFF00
     /*  */
     .gc3-c2{
         width: 35%;
+        padding: 0 0 0 15px;  
     }
-    .gc3-c2 ul{
+    .gc3-c2-2 ul{
         line-height: 20px;
         justify-content: space-around;
     }
@@ -2127,7 +2129,7 @@ Amarillo Soleado: #FFFF00
     }
     .gc3-c3-3 ul:nth-child(even){
         justify-content: space-around;
-        margin: 7px 0 45px 0;
+        padding: 0; 
     }
     /* SOPAS, POSTRES Y CERVEZAS */
     .grid-cont-4{
@@ -2171,7 +2173,7 @@ Amarillo Soleado: #FFFF00
         font-size: 14px;
     }
     .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
-        margin: 0 0 0 48px!important;
+        margin: 0 0 0 48px;
         justify-content: space-between;
     } 
 }
