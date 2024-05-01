@@ -1709,8 +1709,7 @@ Amarillo Soleado: #FFFF00
     }
     .gc4-c3-3 ul:nth-child(even){ /* PRECIOS */
         padding: 0 0 0 20px;
-    }
-    .gc4-c3-3 ul li{}
+    }    
 }
 @media (min-width: 401px) and (max-width: 500px){
     .grid-carta{
