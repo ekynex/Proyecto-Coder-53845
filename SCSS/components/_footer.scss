@@ -1,6 +1,7 @@
 footer{
     background-color: rgba(0, 53, 102, 1);
     color: rgb(255, 255, 255);    
+    
     .cf1{
         display: flex;
         flex-direction: column;
@@ -15,14 +16,14 @@ footer{
             justify-content: center;
             align-items: center;
             a{
-                width: 18%;
-                /* padding-top: 20px; */
+                width: 18%;               
                 img{
                     display: flex;
                     justify-content: center;
                     align-items: center;  
                     transition: all .5s;
                     width: 100%;
+                    height: 50%;
                     &:hover{
                         transform: scale(1.1);}
                 }

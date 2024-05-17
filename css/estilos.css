@@ -367,7 +367,7 @@ footer{
 /* MAIN */
 
 .gal-gen{
-    background-color: rgb(155, 176, 193, 0.8)/* AGREGAR A SASS */
+    background-color: rgb(155, 176, 193, 0.8);/* AGREGAR A SASS */
 }
 
 .ttl-galeria{
@@ -886,7 +886,7 @@ div#GC4{
 
 /* SOBRE NOSOTROS */
 .sn-cont-gen{
-    background-color: rgb(155, 176, 193, 0.8) /* AGREGAR A SASS */
+    background-color: rgb(155, 176, 193, 0.8); /* AGREGAR A SASS */
 }
 
 .ttl-sn{
