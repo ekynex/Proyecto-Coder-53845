@@ -461,6 +461,7 @@ header {
 .grid-carta .grid-cont-3 {
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 .grid-carta .grid-cont-3 h4 {
   font-family: "Big Shoulders Inline Display", sans-serif;
@@ -1948,7 +1949,7 @@ footer .cf3 p a {
 }
 @media (min-width: 1230px) {
   .grid-carta {
-    height: 180vh;
+    height: 200vh;
   }
 }
 @media (min-width: 350px) and (max-width: 400px) {
