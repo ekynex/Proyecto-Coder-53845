@@ -14,12 +14,12 @@
 
 .nav-link {
   padding: 0 10px !important;
-  color: black;
+  color: rgb(255, 255, 255) !important;
 }
 
 .nav-link:hover {
   transform: scale(1.2);
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 h2 {
@@ -126,7 +126,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  background-color: rgba(151, 151, 151, 0.9);
+  background-color: rgba(0, 53, 102, 0.8);
   border-radius: 50px;
 }
 
@@ -153,19 +153,19 @@ header {
   line-height: 4.55vw;
   margin-bottom: 40px;
 }
+.contenedor-1 p:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+}
 .contenedor-1 p a {
   text-decoration: none;
-  color: white !important;
+  color: white;
   border: 1px solid white;
   border-radius: 10px;
   padding: 10px 30px;
   transition: ease 0.5s;
   font-size: 1.3vw;
-}
-.contenedor-1 p a:hover {
-  cursor: pointer;
-  color: white;
-  transform: scale(1.1);
 }
 
 .contenedor-2 {
@@ -175,6 +175,7 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 5px 3px 5px 3px rgba(134, 134, 134, 0.15);
+  background-color: rgba(117, 117, 117, 0.4);
 }
 .contenedor-2 .contenedor-2-img {
   max-height: 450px;
@@ -187,16 +188,22 @@ header {
   margin: auto;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .contenedor-2 .contenedor-2-columna h3 {
   font-size: 35px;
   padding-bottom: 20px;
+  font-weight: 700;
 }
 .contenedor-2 .contenedor-2-columna p {
   text-align: center;
   font-size: 21px;
+  font-weight: 600;
 }
 
+.contenedor-3 {
+  background-color: rgba(155, 176, 193, 0.8);
+}
 .contenedor-3 h2 {
   text-align: center;
   padding: 40px 0;
@@ -229,22 +236,27 @@ header {
   border-radius: 8px;
   text-align: center;
   padding: 5px 0;
+  transition: ease 0.5s;
+}
+.contenedor-3 .contenedor-3-cajas .caja .boton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: black;
+  background-color: #800020;
 }
 .contenedor-3 .contenedor-3-cajas .caja .boton a {
   color: black;
   text-decoration: none;
-  transition: all 0.5s;
 }
 .contenedor-3 .contenedor-3-cajas .caja .boton a:hover {
-  cursor: pointer;
-  color: black;
-  transform: scale(1.1);
+  color: rgb(255, 255, 255);
 }
 
 .contenedor-4 {
   display: flex;
   flex-wrap: wrap;
-  margin: 70px 90px 0 90px;
+  padding: 60px;
+  background-color: rgba(155, 176, 193, 0.8);
 }
 .contenedor-4 .c1c4 {
   display: flex;
@@ -253,12 +265,12 @@ header {
   align-items: center;
   margin-top: 25px;
   width: 50%;
-  padding: 0 70px 0 70px;
+  padding: 0 70px 0 50px;
   text-align: center;
 }
 .contenedor-4 .c2c4 {
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 200px 150px 200px;
   grid-template-rows: 45% 35% 45%;
   grid-template-areas: "GI1 GI3 GI3" "GI1 GI5 GI2" "GI4 GI4 GI2";
   height: 60vh;
@@ -299,13 +311,12 @@ header {
   grid-template-rows: 300px 300px 300px;
   grid-template-areas: "GC1 GC4" "GC2 GC4" "GC3 GC4";
   height: 170vh;
-  width: 85%;
-  margin: auto;
   font-size: 15px;
   row-gap: 20px;
   -moz-column-gap: 20px;
        column-gap: 20px;
-  padding-top: 70px;
+  padding: 70px 50px 0 50px;
+  background-color: rgba(155, 176, 193, 0.8);
 }
 .grid-carta div#GC1 {
   grid-area: GC1;
@@ -326,7 +337,11 @@ header {
   border-bottom: 2px solid rgb(168, 168, 168);
 }
 .grid-carta .grid-cont-1 h4 {
-  padding-bottom: 12px;
+  padding-bottom: 1px;
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #800020;
 }
 .grid-carta .grid-cont-1 .gc1-1 {
   display: flex;
@@ -385,46 +400,51 @@ header {
   flex-direction: column;
   justify-content: center;
   border-bottom: 2px solid rgb(168, 168, 168);
-  padding-top: 20px;
 }
-.grid-carta .grid-cont-2 .gc2-1 {
+.grid-carta .grid-cont-2 h4 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #800020;
+}
+.grid-carta .grid-cont-2 h4 .gc2-1 {
   display: flex;
   width: 97%;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c1 {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c1 {
   display: flex;
   flex-wrap: wrap;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c1 ul {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c1 ul {
   width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 0;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c1 ul:nth-child(even) {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c1 ul:nth-child(even) {
   width: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c1 ul li {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c1 ul li {
   list-style: none;
   width: 100%;
   padding: 12px 0;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c2 {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c2 {
   display: flex;
   flex-wrap: wrap;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c2 ul {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c2 ul {
   width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c2 ul:nth-child(even) {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c2 ul:nth-child(even) {
   width: 10%;
   display: flex;
   flex-direction: column;
@@ -432,7 +452,7 @@ header {
   align-items: center;
   padding-left: 0;
 }
-.grid-carta .grid-cont-2 .gc2-1 .gc2-c2 ul li {
+.grid-carta .grid-cont-2 h4 .gc2-1 .gc2-c2 ul li {
   list-style: none;
   width: 90%;
   padding: 2px 0;
@@ -441,7 +461,13 @@ header {
 .grid-carta .grid-cont-3 {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+}
+.grid-carta .grid-cont-3 h4 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #800020;
+  padding-bottom: 5px;
 }
 .grid-carta .grid-cont-3 .gc3-1 {
   display: flex;
@@ -451,6 +477,11 @@ header {
   display: flex;
   flex-direction: column;
   width: 40%;
+}
+.grid-carta .grid-cont-3 .gc3-1 .gc3-c1 h5 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 25px;
+  padding-bottom: 2px;
 }
 .grid-carta .grid-cont-3 .gc3-1 .gc3-c1 .gc3-c1-1 {
   display: flex;
@@ -472,6 +503,11 @@ header {
   flex-direction: column;
   width: 50%;
   padding: 0 0 0 40px;
+}
+.grid-carta .grid-cont-3 .gc3-1 .gc3-c2 h5 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 25px;
+  padding-bottom: 2px;
 }
 .grid-carta .grid-cont-3 .gc3-1 .gc3-c2 .gc3-c2-2 {
   display: flex;
@@ -498,6 +534,11 @@ header {
   flex-direction: column;
   width: 40%;
   padding: 0 0 0 30px;
+}
+.grid-carta .grid-cont-3 .gc3-1 .gc3-c3 h5 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 25px;
+  padding-bottom: 2px;
 }
 .grid-carta .grid-cont-3 .gc3-1 .gc3-c3 .gc3-c3-3 {
   display: flex;
@@ -534,6 +575,13 @@ header {
   align-items: center;
   margin: 20px 0;
 }
+.grid-carta .grid-cont-4 .gc4-c1 h4 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #800020;
+  padding-bottom: 5px;
+}
 .grid-carta .grid-cont-4 .gc4-c1 .gc4-c1-1 {
   display: flex;
 }
@@ -552,6 +600,13 @@ header {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+.grid-carta .grid-cont-4 .gc4-c2 h4 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #800020;
+  padding-bottom: 5px;
 }
 .grid-carta .grid-cont-4 .gc4-c2 .gc4-c2-2 {
   display: flex;
@@ -574,6 +629,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.grid-carta .grid-cont-4 .gc4-c3 h4 {
+  font-family: "Big Shoulders Inline Display", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #800020;
+  padding-bottom: 5px;
 }
 .grid-carta .grid-cont-4 .gc4-c3 .gc4-c3-3 {
   display: flex;
@@ -618,7 +680,7 @@ header {
 /* SOBRE NOSOTROS */
 .ttl-sn {
   text-align: center;
-  margin: 60px 0 70px 0;
+  padding: 80px 0 40px 0;
 }
 .ttl-sn h2 {
   font-size: 60px;
@@ -756,6 +818,7 @@ header {
   display: flex;
   flex-direction: column;
   margin: 0 80px;
+  background-color: rgba(155, 176, 193, 0.8);
 }
 .reservar-cont .ttl-reservar {
   display: flex;
@@ -783,9 +846,8 @@ header {
 
 /* FIN RESERVAR */
 footer {
-  background-color: black;
-  color: white;
-  margin: 130px 0 0 0;
+  background-color: rgb(0, 53, 102);
+  color: rgb(255, 255, 255);
 }
 footer .cf1 {
   display: flex;
@@ -795,6 +857,7 @@ footer .cf1 {
 }
 footer .cf1 img {
   padding-top: 30px;
+  height: 200px;
 }
 footer .cf1 .redes {
   display: flex;
@@ -1226,6 +1289,11 @@ footer .cf3 p a {
   }
   .contenedor-4 .c2c4 {
     width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .contenedor-4 {
+    padding-bottom: 150px;
   }
 }
 @media (min-width: 350px) and (max-width: 400px) {
@@ -1854,6 +1922,11 @@ footer .cf3 p a {
     justify-content: space-between;
   }
 }
+@media (min-width: 1230px) {
+  .grid-carta {
+    height: 180vh;
+  }
+}
 @media (min-width: 350px) and (max-width: 400px) {
   .ttl-galeria {
     line-height: 30px;
@@ -1904,6 +1977,11 @@ footer .cf3 p a {
   }
   .txt-galeria {
     width: 300px;
+  }
+}
+@media (min-width: 1230px) {
+  .txt-galeria {
+    margin-bottom: 50px;
   }
 }
 @media (min-width: 350px) and (max-width: 400px) {
@@ -2386,6 +2464,11 @@ footer .cf3 p a {
   }
   .sn-cont-4 .sn-c4-1 p:nth-child(odd) {
     margin-top: 2.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .sn-cont-4 {
+    padding-bottom: 30px;
   }
 }
 @media (min-width: 350px) and (max-width: 400px) {

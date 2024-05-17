@@ -13,7 +13,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgba(151, 151, 151, 0.9);
+    background-color:  rgba(0, 53, 102, .8); /* AGREGAR A SASS */
     border-radius: 50px;
 }
 
@@ -24,12 +24,12 @@ header{
 
 .nav-link{
     padding: 0 10px !important;
-    color: black;
+    color: rgb(255, 255, 255)!important; /* AGREGAR A SASS */
 }
 
 .nav-link:hover{
     transform: scale(1.2);
-    border-bottom: 1px solid black;    
+    border-bottom: 1px solid rgb(255, 255, 255);  /* AGREGAR A SASS */
 }
 /* FIN HEADER */
 
@@ -65,15 +65,15 @@ header{
 
 .contenedor-1 p a{
     text-decoration: none;
-    color: white !important;
+    color: white; /* QUITAR EL !IMPORTANT EN SASS */
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px 30px;
-    transition: ease .5s;
+    transition: ease.5s;
     font-size: 18px;
 }
 
-.contenedor-1 p a:hover{
+.contenedor-1 p:hover{ /* QUITAR EL "a" EN SASS */
     cursor: pointer;
     color: white;
     transform: scale(1.1);
@@ -90,6 +90,7 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     box-shadow: 5px 3px 5px 3px rgba(134, 134, 134, 0.15);
+    background-color: rgba(117, 117, 117, 0.4); /* AGREGAR A SASS */
 }
 
 .contenedor-2-img{
@@ -104,21 +105,27 @@ header{
     margin: auto;
     justify-content: center;
     align-items: center;
+    color: white; /* AGREGAR A SASS */    
 }
 
 .contenedor-2-columna h3{
     font-size: 35px;
     padding-bottom: 20px;
+    font-weight: 700; /* AGREGAR A SASS */
 }
 
 .contenedor-2-columna p{
     text-align: center;
     font-size: 21px;
+    font-weight: 600; /* AGREGAR A SASS */
 }
 
 
                 /* CONTENEDOR 3 */
 
+.contenedor-3{/* AGREGAR A SASS */
+    background-color: rgb(155, 176, 193, 0.8);
+}
 
 h2{
     text-align: center;
@@ -143,7 +150,7 @@ h2{
 .caja > h4{
     padding: 10px 0;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 600;    
 }
 
 .caja > p{
@@ -156,20 +163,23 @@ h2{
     border: 1px solid black;
     border-radius: 8px;
     text-align: center;
-    padding: 5px 0;
-    
+    padding: 5px 0;    
+    transition: ease .5s; /* AGREGAR ESTO A SASS */
+}
+.boton:hover{ /* AGREGAR ESTO A SASS */
+    transform: scale(1.1);
+    cursor: pointer;
+    color: black;
+    background-color: #800020; 
 }
 
 .boton > a{
     color: black;
-    text-decoration: none;
-    transition: all .5s;
+    text-decoration: none;    
 }
 
-.boton > a:hover{
-    cursor: pointer;
-    color: black;
-    transform: scale(1.1);
+.boton > a:hover{/* MODIFICAR ESTO EN SASS */
+    color: rgb(255, 255, 255);
 }
 
 
@@ -179,7 +189,9 @@ h2{
 .contenedor-4{
     display: flex;
     flex-wrap: wrap;
-    margin: 70px 90px -100px 90px;
+    
+    padding: 60px; /* AGREGAR A SASS */
+    background-color: rgb(155, 176, 193, 0.8); /* AGREGAR A SASS */
 }
 
 .c1c4{
@@ -188,14 +200,14 @@ h2{
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    width: 50%;
-    padding: 0 70px 0 70px;
+    width: 50%; /* MODIFICAR EN SASS */
+    padding: 0 70px 0 50px; /* MODIFICAR EN SASS */
     text-align: center;
 }
 
 .c2c4{
     display: grid;
-    grid-template-columns: 30% 40% 30%; /* los valores dan el ancho de la columna */
+    grid-template-columns: 200px 150px 200px; /* los valores dan el ancho de la columna */
     grid-template-rows: 45% 35% 45%;
     grid-template-areas: 
     "GI1 GI3 GI3"
@@ -243,9 +255,9 @@ div#GI5{
 /* FOOTER */
 
 footer{
-    background-color: black;
-    color: white;
-    margin: 220px 0 0 0;
+    background-color: rgba(0, 53, 102, 1); /* AGREGAR A SASS */
+    color: rgb(255, 255, 255);
+    /* margin: 220px 0 0 0; MODIFICAR EN SASS */
 }
 
 .cf1{
@@ -257,6 +269,7 @@ footer{
 
 .cf1 > img{
     padding-top: 30px;
+    height: 200px; /* AGREGAR A SASS */
 }
 
 .redes{
@@ -311,7 +324,7 @@ footer{
 
 .cf2-txt p a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .cf3{
@@ -322,7 +335,7 @@ footer{
 
 .cf3 p a{
     text-decoration: none;
-    color: rgb(145, 145, 145);
+    color: rgb(255, 255, 255);
     font-size: .9rem;
     padding: 0 20px;
 }
@@ -353,6 +366,10 @@ footer{
 
 /* MAIN */
 
+.gal-gen{
+    background-color: rgb(155, 176, 193, 0.8)/* AGREGAR A SASS */
+}
+
 .ttl-galeria{
     padding: 100px 200px 30px 200px;
     line-height: 60px;
@@ -377,22 +394,25 @@ footer{
     text-align: center;
     width: 25%;
     padding: 10px 0;
-    margin: 50px auto -180px auto;
-    border: 1px solid black;
+    margin: 50px auto 0 auto;
+    border: 1px solid black; /* MODIFICAR EN SASS */
     border-radius: 5px;    
-    transition: ease .5s;
+    transition: ease .5s;/* ease, linear, ease-in, ease-out, ease-in-out */
+}
+
+.txt-galeria:hover{
+    transform: scale(1.1);
+    background-color: #800020;
 }
 
 .txt-galeria a{  
     text-decoration: none;
-    color: black;    
-     /* ease, linear, ease-in, ease-out, ease-in-out */
+    color: black;     
 }
 
-.txt-galeria a:hover{  /* FALLANDO EL HOVER */
-    transform: scale(2.05);
-    color: darkgreen;
-    font-weight: 600;
+.txt-galeria a:hover{ /* MODIFICAR EN SASS */
+    color: white;
+    font-weight: 600;    
 }
 
 /* FIN MAIN */
@@ -414,12 +434,14 @@ footer{
     "GC2 GC4"
     "GC3 GC4";
     height: 155vh;
-    width: 85%;
-    margin: auto;
+    /* width: 85%; QUITAR EN SASS */
+    /* margin: auto; QUITAR EN SASS */    
     font-size: 15px;
     row-gap: 20px;
     column-gap: 20px;
-    padding-top: 70px;
+    padding: 70px 50px 0 50px; /* AGREGAR A SASS */
+    /* padding-top: 70px; QUITAR EN SASS */
+    background-color: rgb(155, 176, 193, 0.8);/* AGREGAR A SASS */
 }
 
 div#GC1{
@@ -448,7 +470,11 @@ div#GC4{
 }
 
 .grid-cont-1 h4{
-    padding-bottom: 12px;
+    padding-bottom: 1px; /*MODIFICAR EN SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;/* AGREGAR A SASS */
+    font-size: 45px; /* AGREGAR A SASS */
+    font-weight: 700; /* AGREGAR A SASS */
+    color: #800020; /* AGREGAR A SASS */
 }
 
 .gc1-1{
@@ -520,7 +546,14 @@ div#GC4{
     flex-direction: column;
     justify-content: center;
     border-bottom: 2px solid rgb(168, 168, 168);
-    padding-top: 20px;
+    /* padding-top: 20px; QUITAR EN SASS */
+}
+
+.grid-cont-2 h4{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 45px; 
+    font-weight: 700;
+    color: #800020;
 }
 
 .gc2-1{
@@ -589,9 +622,16 @@ div#GC4{
 
 .grid-cont-3{
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    padding-top: 20px;
+    flex-direction: column; 
+    /* padding-top: 20px; QUITAR EN SASS */
+}
+
+.grid-cont-3 h4{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 45px; 
+    font-weight: 700;
+    color: #800020;
+    padding-bottom: 5px;
 }
 
 .gc3-1{
@@ -601,11 +641,15 @@ div#GC4{
 
 .gc3-c1{
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    flex-direction: column;    
     width: 40%;
 }
 
+.gc3-c1 h5{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 25px;
+    padding-bottom: 2px;
+}
 
 .gc3-c1-1{
     display: flex;
@@ -632,6 +676,12 @@ div#GC4{
     /* justify-content: center; */
     width: 50%;
     padding: 0 0 0 40px;
+}
+
+.gc3-c2 h5{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 25px;
+    padding-bottom: 2px;
 }
 
 .gc3-c2-2{
@@ -664,6 +714,12 @@ div#GC4{
     flex-direction: column;
     width: 40%;
     padding: 0 0 0 30px;
+}
+
+.gc3-c3 h5{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 25px;
+    padding-bottom: 2px;
 }
 
 .gc3-c3-3{
@@ -710,6 +766,14 @@ div#GC4{
     margin: 20px 0;
 }
 
+.gc4-c1 h4{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #800020;
+    padding-bottom: 5px;
+}
+
 .gc4-c1-1{
     display: flex;
 }
@@ -733,6 +797,14 @@ div#GC4{
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+}
+
+.gc4-c2 h4{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #800020;
+    padding-bottom: 5px;
 }
 
 .gc4-c2-2{
@@ -763,6 +835,14 @@ div#GC4{
     align-items: center;
 }
 
+.gc4-c3 h4{ /* AGREGAR A SASS */
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #800020;
+    padding-bottom: 5px;
+}
+
 .gc4-c3-3{
     display: flex;
 }
@@ -778,7 +858,6 @@ div#GC4{
     margin: 0 0 0 145px;
     
 }
-
 
 .gc4-c3-3 ul li{
     list-style: none;
@@ -806,10 +885,13 @@ div#GC4{
 
 
 /* SOBRE NOSOTROS */
+.sn-cont-gen{
+    background-color: rgb(155, 176, 193, 0.8) /* AGREGAR A SASS */
+}
 
 .ttl-sn{
     text-align: center;
-    margin: 60px 0 70px 0;
+    padding: 80px 0 40px 0; /* MODIFICAR EN SASS */
 }
 
 .ttl-sn h2{
@@ -834,6 +916,7 @@ div#GC4{
     margin: 30px auto;
     width: 80%;
     height: 60vh;
+    background-color: rgba(0, 53, 102, .5);  
 }
 
 .sn-c1-1{
@@ -896,7 +979,7 @@ div#GC4{
     margin: 30px auto;
     width: 80%;
     height: 60vh;
-    /* background-color: #334756; */
+    background-color: rgba(0, 53, 102, .5); 
 }
 
 .sn-cont-3 img{
@@ -927,7 +1010,7 @@ div#GC4{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px auto -180px auto;
+    margin: 30px auto 0 auto;
     width: 80%;
     height: 60vh;
 }
@@ -986,7 +1069,8 @@ div#GC4{
 .reservar-cont{
     display: flex;
     flex-direction: column;
-    margin: 0 80px;
+    padding: 0 80px;
+    background-color: rgb(155, 176, 193, 0.8); /* AGREGAR A SASS */
 }
 
 .ttl-reservar{
@@ -1044,18 +1128,11 @@ div#GC4{
 /* FIN RESERVAR */
 
 
-/* 
-#2C3E50 (Azul marino)
-#5B6C5D (Verde musgo oscuro)
-#334756 (Azul oscuro)
-#FFD6BA (Melocotón suave)
-
-Verde Lima: #7FFF00
-Naranja Cálido: #FFA500
-Marrón Chocolate: #D2691E
-Blanco Crema: #FFF8DC
-Amarillo Soleado: #FFFF00
-
+/*
+rgb(234, 223, 180) #EADFB4 beige    
+rgb(155, 176, 193) #9BB0C1 gris
+rgb(81, 130, 155) #51829B azul(header)
+rgb(246, 153, 92) #F6995C naranja
 */
 
 
@@ -1099,7 +1176,6 @@ Amarillo Soleado: #FFFF00
     }
 }
 
-
 @media (min-width: 400px) and (max-width: 551px){
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         width: 80% !important;
@@ -1117,11 +1193,9 @@ Amarillo Soleado: #FFFF00
         padding: 0!important;
     }
 }
-
 /* FIN HEADER */
 
 /* FOOTER */
-
 @media (min-width: 350px) and (max-width: 400px){
     .cf1 img{
         width: 50%;
@@ -1212,7 +1286,6 @@ Amarillo Soleado: #FFFF00
         padding: 0;       
     }
 }
-
 /* FIN FOOTER */
 
 
@@ -1492,6 +1565,11 @@ Amarillo Soleado: #FFFF00
         justify-content: center;
     }
 }
+@media (min-width: 1200px){ /* AGREGAR EN SASS */
+    .contenedor-4{
+        padding-bottom: 150px;
+    }
+} 
 /* FIN MAIN INDEX */
 
 
@@ -2176,6 +2254,11 @@ Amarillo Soleado: #FFFF00
         justify-content: space-between;
     } 
 }
+@media (min-width: 1230px){ /* AGREGAR EN SASS */
+    .grid-carta{    
+        height: 180vh;
+    }
+}
 /* FIN CARTA */
 
 
@@ -2235,7 +2318,12 @@ Amarillo Soleado: #FFFF00
         width: 300px;
     }
 }
-/* FIN GALER[IA */
+@media (min-width: 1230px){ /* AGREGAR EN SASS */
+    .txt-galeria{    
+        margin-bottom: 50px;
+    }
+}
+/* FIN GALERÍA */
 
 
 
@@ -2747,6 +2835,11 @@ Amarillo Soleado: #FFFF00
         margin-top: 2.2rem;
     }
 }
+@media (min-width: 1200px){ /* AGREGAR EN SASS */
+    .sn-cont-4{
+        padding-bottom: 30px;
+    }
+}  
 /* FIN SOBRE NOSOTROS */
 
 
