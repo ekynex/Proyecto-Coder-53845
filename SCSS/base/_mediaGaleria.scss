@@ -1,14 +1,19 @@
 @media (min-width: 350px) and (max-width: 400px){
-    .ttl-galeria{
-        line-height: 30px;
-        font-size: 1.5rem;
-        padding: 100px 20px 10px 20px;
-    }
-    .galeria-grid{
-        grid-template-columns: repeat(2, 150px);        
-    }
-    .txt-galeria{
-        width: 80%;       
+    .gal-gen{
+        background-color: rgb(155, 176, 193, 0.8);
+        .ttl-galeria{
+            line-height: 30px;
+            font-size: 1.5rem;
+            padding: 100px 20px 10px 20px;
+        }
+        .galeria-grid{
+            grid-template-columns: repeat(2, 150px);
+        }
+        .txt-galeria{
+            width: 80%;
+            position: relative;
+            bottom: 40px;
+        }
     }
 }
 @media (min-width: 401px) and (max-width: 500px){

@@ -1,7 +1,8 @@
 @media (min-width: 350px) and (max-width: 400px){
     .reservar-cont{
         margin: 0;
-        height: auto;        
+        height: auto;  
+        padding: 0;      
         .cal-reservar{
             flex-direction: column;
             .rc-1{
@@ -23,8 +24,10 @@
                 }
             }
         }      
-        .btn-reservar{
-            width: 100%;
+        .btn-reservar{        
+            padding-bottom: 80px; 
+            position: relative;
+            bottom: 25px;           
         }  
     }
 }
